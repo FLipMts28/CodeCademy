@@ -1,1 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h1 {
+    background-image: url("resources/images/patterns.jpeg");
+    text-align: center;
+    font-size: 100px;
+    color: khaki;
+}
