@@ -1,0 +1,75 @@
+$ 1s
+bash: 1s: command not found
+$ ls
+2014  2015  hardware.txt
+$ ls pwd
+ls: cannot access 'pwd': No such file or directory
+$ pwd
+/home/ccuser/workspace/blog
+$ cd 2015
+$ cd ..
+$ pwd
+/home/ccuser/workspace/blog
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ 2015
+bash: 2015: command not found
+$ cd 2015
+$ pwd
+/home/ccuser/workspace/blog/2015
+$ cd ..
+$ pwd
+/home/ccuser/workspace/blog
+$ cd memory
+bash: cd: memory: No such file or directory
+$ cd memory/
+bash: cd: memory/: No such file or directory
+$ cd 2015
+$ pwd
+/home/ccuser/workspace/blog/2015
+$ cd jan
+$ pwd
+/home/ccuser/workspace/blog/2015/jan
+$ cd memory
+$ pwd
+/home/ccuser/workspace/blog/2015/jan/memory
+$ cd ../..
+$ pwd
+/home/ccuser/workspace/blog/2015
+$ cd fev
+bash: cd: fev: No such file or directory
+$ cd feb
+$ pwd
+/home/ccuser/workspace/blog/2015/feb
+$ cd ../jan
+$ pwd
+/home/ccuser/workspace/blog/2015/jan
+$ cd ../..
+$ pwd
+/home/ccuser/workspace/blog
+$ cd /home/ccuser/workspace/blog/2014/dec
+$ pwd
+/home/ccuser/workspace/blog/2014/dec
+$ ls
+monitor.txt  mouse.txt
+$ mkdir media
+$ pwd
+/home/ccuser/workspace/blog/2014/dec
+$ ls
+media  monitor.txt  mouse.txt
+$ cd media
+$ mkdir tv
+$ ls
+tv
+$ pwd
+/home/ccuser/workspace/blog/2014/dec/media
+$ cd ../../..
+$ pwd
+/home/ccuser/workspace/blog
+$ touch keyboard.txt
+$ ls
+2014  2015  hardware.txt  keyboard.txt
+$ ^C
+$ 
