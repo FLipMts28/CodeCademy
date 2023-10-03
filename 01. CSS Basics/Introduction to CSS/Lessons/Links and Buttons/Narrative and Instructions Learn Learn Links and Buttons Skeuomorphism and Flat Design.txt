@@ -1,0 +1,7 @@
+Buttons are another fundamental element of user interaction and navigation. They are called ‘buttons’ because they are often modeled on the appearance and behavior of real-life buttons. The concept of UI elements that replicate or imitate real-life counterparts is known as skeuomorphism.
+
+In design, skeuomorphism is helpful for lowering the learning curve for users. If users can draw a metaphor between a familiar real-life object and an interface element, they are more likely to know how to use it without training. In the example of the button, if a web button appears similar to a real-life button on a physical interface, users can reliably figure out that the way to interact with the button is to press it.
+
+Flat design is an alternative approach to skeuomorphism that embraces the fact that computer interfaces do not necessarily need to model real-life interfaces. As users grow more familiar with digital displays and interfaces, designers have felt less need to model physical interactions and instead rely on other signifiers to indicate interactive elements. To generalize, flat design uses simplicity and lack of clutter for its UI elements.
+
+Note: We will be using the HTML <button> element to create these designs. <button>s come with some default styles, such as a border and background-color, which give them a built-in “buttony” look. In this exercise and the exercises that follow, you will use CSS to create customized buttons that override these defaults. To learn more about the HTML <button>, you can visit the MDN Web Docs.
