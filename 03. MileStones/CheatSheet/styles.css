@@ -27,8 +27,7 @@ th, td {
   text-allign: left;
 }
 
-tr {
-  nth-child (even) {
+tr : nth-child (even) {
     background-color: PaleTurquoise;
   }
 
@@ -56,4 +55,3 @@ h1, h2, ul {
   color: FireBrick;
   font-family: Helvetica;
 }
-
