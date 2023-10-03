@@ -1,0 +1,31 @@
+Skeuomorphic button design aims to imitate the appearance and interactivity of a real-life button, often including a ‘raised’ appearance while the button is unpressed and a ‘pressed’ appearance when clicked.
+
+Skeuomorphic button design can be implemented using image files, CSS rules, or a combination of both. CSS styles should be preferred over image files if possible, since they are faster to load, have smaller file sizes, and allow for a more consistent scaling and appearance across different screen sizes and resolutions. Modern CSS3 has support for many 2-D and 3-D effects and animations and can create many skeuomorphic button designs on its own.
+
+If using CSS rules, the use of hover and/or active states is important in order to model interaction with a real button. For example, to implement a bare minimum 3-D button design, the following CSS ruleset could be used:
+
+button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  margin-top: 5px;
+  color: black;
+  box-shadow: 0px 0px;
+}
+
+A button element can then be created with the following HTML:
+
+<button>Click me</button>
+
+The default state of this <button> has some basic ‘buttony’ appearance with a rounded border (border and border-radius properties) and a slightly raised appearance with the use of the box-shadow. The :hover cursor is added for visual feedback. When the button is clicked (:active), the box-shadow is removed, and the margin-top moves the button down by 5px, making it appear to be pressed.
+
+The above example is only one very basic implementation of a 3-D button; there are many additional (and more attractive) ways to create skeuomorphic buttons.
