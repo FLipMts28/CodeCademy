@@ -1,0 +1,3 @@
+Just as with links, buttons should make use of hover states and the cursor: pointer declaration. All the caveats about the shortcomings of hover states on mobile devices apply to buttons, but their use is still encouraged.
+
+Users expect buttons to be clickable. Since buttons can consist of any number of total elements (rectangular/circular body, text, image(s)), all elements should be clickable, should display their clickability, and should result in the same behavior.
