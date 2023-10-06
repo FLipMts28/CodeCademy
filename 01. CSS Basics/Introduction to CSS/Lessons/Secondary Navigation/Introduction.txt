@@ -1,0 +1,32 @@
+Introduction
+
+Consider the website to the right. We can see that the site is listing hotels in Singapore. Do you know if this site
+offers any other categories of travel products (tours, flights, experiences) or products in other regions? There is 
+no way to tell from the current view.
+What is primary vs secondary navigation?
+
+    The primary navigation system typically contains the most important links and buttons that need to be displayed 
+on every single page of the site.
+    Secondary navigation, or breadcrumb navigation, usually consists of a clickable list of pages or attributes that 
+led to the current page. It can help users understand the extent of the site and also where they are currently.
+
+For example, a shopping site may have a breadcrumb trail leading to a pair of shoes like so:
+Why do we call them breadcrumbs?
+
+Think about the story of Hansel and Gretel, where the kids drop breadcrumbs as they walked in the woods so that they 
+would be able to find their way back.
+Benefit of using breadcrumbs
+
+Breadcrumb navigation provides a lot of benefits for users that come to random pages in a website through direct 
+links or search results. Even if they enter to a seemingly random page on our site, they already have an idea of 
+where they are in the website. The breadcrumb also hints at the extent of the site. For the example above, users 
+could safely assume the site had shoes for other categories, shoes in different styles, and shoes in more colors.
+
+Breadcrumbs also provide a way for a user to quickly jump backward in their navigation of the site. For example, if a 
+user wanted to browse another style of shoe, they could click directly on the “Shoes” page and navigate to their 
+desired style. Without the breadcrumbs, they would likely need to click “back” twice in their browser or start their 
+search over from the home page.
+
+The decision to use breadcrumbs is a judgment call depending on the type, depth, and complexity of your site. In this 
+lesson, we’ll discuss some of the benefits of including breadcrumb navigation, how to implement it using HTML and 
+CSS, and some of the pitfalls to avoid.
