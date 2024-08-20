@@ -78,9 +78,9 @@ If you have a set of commands that you use regularly and want to save some time 
 
 Below are a couple of examples:
 
-` $ git config --global alias.co "checkout"
-` $ git config --global alias.br "branch"
-` $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
+    $ git config --global alias.co "checkout"
+    $ git config --global alias.br "branch"
+    $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
 
 Once the aliases are configured, next time you want to check out to another branch you could type the command:
 
