@@ -2,7 +2,7 @@ Git provides us with a vast number of different commands that are listed on the 
 Introduction
 
 Git provides us with a vast number of different commands that are listed on the documentation which can be intimidating at first. We will break down a couple that are powerful for daily tasks.
-** Git stash **
+Git stash 
 
 Let’s say you’re working on experimental code on a fresh branch and realize that you forgot to add something to a previous commit in order to continue your work. In order to go to a different branch, one must always be at a clean commit point. In this case you don’t want to commit your experimental code since it’s not ready but you also don’t want to lose all the code you’ve been working on.
 
@@ -13,9 +13,9 @@ The flow when using git stash might look something like this:
 In this diagram, a coworker asks the programmer if they can work on something else while they have their current code open. Git stash allows their current code to be stashed as they finish the other update. Git stash pop puts the code changes back into the working directory.
 
 While working on a file, you find a small bug in a separate file from a previous commit that needs to be fixed before you continue.
-
-** $ git stash **
-
+'''bash
+$ git stash 
+'''
 Running the command above will store your work temporarily for later use in a hidden directory.
 
 At this point, you can switch branches and do work elsewhere.
