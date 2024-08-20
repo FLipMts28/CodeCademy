@@ -1,0 +1,13 @@
+## Managing Branches ##
+
+Whenever we’re working on a team creating multiple versions of a project code, it’s important to isolate each teammate’s work in order to avoid any conflicts. With Git, each teammate can create their own branch off of the main project in order to work on bug-fixes, new features, experimental code, etc.
+
+A branch is essentially a divergence from the main project. ​​When you branch out, git is essentially making a new state of your current code, upon which you can work, without affecting the important main state of the code. One can create as many branches as they wish and even create branches off of other branches.
+
+By using separate branches, the main project remains intact and unaffected before the changes are reviewed and merged into the project.
+
+Each repository can have one or more branches. The main branch — the one where all changes eventually get merged back into, is called main. The main branch is usually the working version of a project and contains the production code, so it’s very important to only merge clean and correct code into it!
+
+When someone wants to create a new feature, fix a bug, or just experiment, they should always create their own branch with a descriptive name.
+
+Each team will adopt their own best practices when working together and figuring out naming conventions. For example, the branch name carlos_feature_dashboard_notifications includes the author, branch type, and short branch description. Other teams may pick branch names to correspond to ticket numbers from their project management tool.
