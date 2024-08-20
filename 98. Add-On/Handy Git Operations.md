@@ -50,6 +50,7 @@ The output of `git log -S "Add"` finds a commit where the number of occurrences 
 Displays a visual representation of how the branches and commits were created in order to help you make sense of your repository history. When used alone, the description can be very lengthy, so you can combine the command with --oneline in order to shorten the description.
 
     Git log --online --graph 
+    
 Outputs a graphical representation of commits, showing where branches were created earlier and merged.
 Git commit amend
 
@@ -77,9 +78,9 @@ If you have a set of commands that you use regularly and want to save some time 
 
 Below are a couple of examples:
 
-` $ git config --global alias.co "checkout"`
-` $ git config --global alias.br "branch"`
-` $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"`
+` $ git config --global alias.co "checkout"
+` $ git config --global alias.br "branch"
+` $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
 
 Once the aliases are configured, next time you want to check out to another branch you could type the command:
 
