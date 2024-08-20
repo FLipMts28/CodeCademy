@@ -8,7 +8,7 @@ In this lesson, we’ll be using Git branching to develop multiple versions of a
 
   `$git branch`
 
-## branching overview ##
+## Branching Overview ##
 
 The diagram to the right illustrates branching.
 
