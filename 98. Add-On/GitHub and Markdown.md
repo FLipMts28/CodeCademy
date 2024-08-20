@@ -31,7 +31,7 @@ Sub-Title of My Document
 
 Both examples are valid Markdown syntax. It is intuitive and normal for headings to be in either format. Alternatively, you can format headings using the # character. We’ll show more examples of different headings, but for now, here’s an example of valid syntax for a <h1> heading:
 
-# Title of My Document
+# Title of My Document #
 
 Furthermore, a Markdown document without any HTML tags can be published as is because its syntax is already made for easy viewing. For example, the following Markdown document has:
 
