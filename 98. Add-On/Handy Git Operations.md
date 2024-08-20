@@ -2,7 +2,7 @@ Git provides us with a vast number of different commands that are listed on the 
 Introduction
 
 Git provides us with a vast number of different commands that are listed on the documentation which can be intimidating at first. We will break down a couple that are powerful for daily tasks.
-Git stash
+** Git stash **
 
 Let’s say you’re working on experimental code on a fresh branch and realize that you forgot to add something to a previous commit in order to continue your work. In order to go to a different branch, one must always be at a clean commit point. In this case you don’t want to commit your experimental code since it’s not ready but you also don’t want to lose all the code you’ve been working on.
 
@@ -14,7 +14,7 @@ In this diagram, a coworker asks the programmer if they can work on something el
 
 While working on a file, you find a small bug in a separate file from a previous commit that needs to be fixed before you continue.
 
-$ git stash
+** $ git stash **
 
 Running the command above will store your work temporarily for later use in a hidden directory.
 
@@ -22,12 +22,12 @@ At this point, you can switch branches and do work elsewhere.
 
 Once the bug is fixed, you want to retrieve the code you were working on previously, you can “pop” the work that was stored when you used git stash.
 
-$ git stash pop
+** $ git stash pop **
 
 From here, you can continue your work and commit it when ready.
 
 Coming up we have a short video demo’ing this in action.
-Git log
+** Git log **
 
 At this point you might be familiar with the command git log, which allows you to view the commit history of the branch you currently have checked out:
 
@@ -54,11 +54,11 @@ Let’s say you finish working on a lengthy feature and everything seems to be w
 
 It’s important to note that although it seems like --amend is simply updating the commit, what Git actually does is replace the whole previous commit. For this reason, when you execute the command git commit --amend, your terminal editor asks you to update your commit message:
 
-git-amend
+** git-amend **
 
 However, if you want to keep the same commit message, you can simply add the flag --no-edit:
 
-$ git commit --amend --no-edit
+** $ git commit --amend --no-edit **
 
 Git alias commands
 
@@ -72,16 +72,16 @@ If you have a set of commands that you use regularly and want to save some time 
 
 Below are a couple of examples:
 
-$ git config --global alias.co "checkout"
-$ git config --global alias.br "branch"
-$ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
+** $ git config --global alias.co "checkout"
+** $ git config --global alias.br "branch"
+** $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
 
 Once the aliases are configured, next time you want to check out to another branch you could type the command:
 
-$ git co example_branch
+** $ git co example_branch
 
 Instead of:
 
-$ git checkout example_branch
+** $ git checkout example_branch
 
 Using Git aliases can create a much more fluid and efficient workflow experience when using Git. By getting creative with your aliases, you’re able to wrap a sequence of Git commands into one in order to save time and effort.
