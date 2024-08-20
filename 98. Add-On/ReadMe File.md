@@ -14,6 +14,6 @@ Make your project stand out and look professional by at least including the foll
 
 Keep READMEs brief but detailed. README should always be up-to-date and self-explanatory. If you have spent a lot of time on your project, you should also spend a good chunk of time on the README. It can help your future self as well when you step away for a while and need to get reacquainted with your project. Not to mention it’ll leave a positive impression on future interviewers who look at your GitHub profile.
 
-  ##Using Markdown to Format READMEs##
+  ## Using Markdown to Format READMEs ##
 
 Keep in mind that nobody wants to read a long block of unformatted text bloated with information. That is why a README file usually has the .md extension. Formatting README files with Markdown can give them flair and make them interesting to read.
