@@ -1,4 +1,4 @@
-## Introduction: Git & GitHub ## 
+# Introduction: Git & GitHub # 
 
 Introduction to our Learn Git & GitHub course.
 
