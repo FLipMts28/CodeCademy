@@ -101,4 +101,5 @@ We also learned the following commands
   + `git fetch`: Fetches work from the remote into the local copy.  
   + `git merge origin/master`: Merges origin/master into your local branch.
   + `git push origin <branch_name>`: Pushes a local branch to the origin remote.
-  + Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
+
+Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
