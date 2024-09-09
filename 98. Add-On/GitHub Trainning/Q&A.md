@@ -23,3 +23,11 @@ Note that there are hints that can assist you, but they will only provide one po
 Codecademy Docs is a free and open-contribution resource that contains entries spanning many common languages, libraries, frameworks, and more. Users worldwide are encouraged to share their knowledge and expertise by creating an entry about a chosen topic. In this project, we will show you how to break up the task of contributing an entry into bite-sized sub-tasks so that you too can make a contribution. The steps to contribute are explained in detail in this article.
 
 Contributing to Codecademy Docs is an excellent way for beginners to practice their GitHub and open-source contribution skills. It also looks great to potential employers!
+
+## Give Feedback, Get Feedback ##
+
+You just completed a Portfolio Project by putting what you’ve learned into practice — way to go!
+
+But you’re not quite done yet. Giving and getting feedback is an important part of the process. By seeing the different solutions that other learners came up with or explaining what you did, you’ll deepen and solidify your understanding of what you’ve learned.
+
+Post your Portfolio Project on the forums and ask for feedback. Then check out some other projects and help your fellow learner.
